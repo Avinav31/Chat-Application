@@ -12,25 +12,6 @@ A chatroom website written in Node.js using Socket.IO for communication between 
 * Administrator accounts with ban and delete powers 🟠
 * Different chatrooms 🟠
 
-## Installation instructions
-
-### Dependencies
-
-* Node.js v17 or newer
-* NPM package manager
-* Git
-
-### Terminal/command prompt
-
-```
-git clone https://github.com/chasc0des/nodejs-login-chat-app.git
-cd nodejs-login-chat-app
-npm install .
-npm start
-```
-
-By default, the program can be accessed on ``http://localhost:8080`` or from another machine on your network, ``http://<YOUR IP ADDRESS>:8080``.
-
 ## Screenshots
 
 <img src="screenshots/sign-in.png" alt="Sign In form" style="width: 100%">
