@@ -1,4 +1,4 @@
-#Chat Application
+#<strong>Chat Application</strong>
 
 <strong>THIS IS A WORK IN PROGRESS, FEATURES MAY BE MISSING.</strong>
 
