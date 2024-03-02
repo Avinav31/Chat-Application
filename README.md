@@ -41,8 +41,6 @@ By default, the program can be accessed on ``http://localhost:8080`` or from ano
 
 <img src="screenshots/delete.png" alt="Delete account page" style="width: 100%">
 
-<img src="screenshots/404.png" alt="Error 404 not found" style="width: 100%">
-
 ```
 nodejs-login-chat-app
 ├─ .VSCodeCounter
