@@ -1,9 +1,8 @@
 const express = require('express')
-const viewController = require('../controller/view') // Import view controller
+const viewController = require('../controller/view')
 
-const router = express.Router() // Create Express.js router
+const router = express.Router()
 
-// GET requests
 router.get('/sign-up', viewController.signUpPage)
 router.get('/sign-in', viewController.signInPage)
 router.get('/', viewController.homePage)
