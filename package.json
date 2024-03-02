@@ -6,19 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chasc0des/nodejs-express-login-system.git"
+    "url": "https://github.com/Avinav31/Chat-App/.git"
   },
   "author": "chasc0des",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chasc0des/nodejs-express-login-system/issues"
+    "url": "https://github.com/Avinav31/Chat-App/issues"
   },
-  "homepage": "https://github.com/Avinav31/Chat-App/",
+  "homepage": "https://Avinav31.github.io/Chat-Application",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.2",
