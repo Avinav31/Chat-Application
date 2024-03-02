@@ -1,0 +1,17 @@
+"filename", "language", "JSON", "JavaScript", "Markdown", "PostCSS", "HTML", "comment", "blank", "total"
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/README.md", "Markdown", 0, 0, 46, 0, 0, 0, 20, 66
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/app.js", "JavaScript", 0, 41, 0, 0, 0, 5, 9, 55
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/controller/auth.js", "JavaScript", 0, 138, 0, 0, 0, 23, 56, 217
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/controller/view.js", "JavaScript", 0, 135, 0, 0, 0, 6, 23, 164
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/handler/chat.js", "JavaScript", 0, 51, 0, 0, 0, 8, 15, 74
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/package-lock.json", "JSON", 2404, 0, 0, 0, 0, 0, 1, 2405
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/package.json", "JSON", 31, 0, 0, 0, 0, 0, 1, 32
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/public/delete.html", "HTML", 0, 0, 0, 0, 20, 0, 1, 21
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/public/scripts/home.js", "JavaScript", 0, 84, 0, 0, 0, 11, 20, 115
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/public/sign-in.html", "HTML", 0, 0, 0, 0, 27, 0, 1, 28
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/public/sign-up.html", "HTML", 0, 0, 0, 0, 26, 0, 1, 27
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/public/styles.css", "PostCSS", 0, 0, 0, 166, 0, 0, 31, 197
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/router/get.js", "JavaScript", 0, 9, 0, 0, 0, 1, 4, 14
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/router/post.js", "JavaScript", 0, 9, 0, 0, 0, 1, 4, 14
+"/home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/server.js", "JavaScript", 0, 68, 0, 0, 0, 7, 23, 98
+"Total", "-", 2435, 535, 46, 166, 73, 62, 210, 3527

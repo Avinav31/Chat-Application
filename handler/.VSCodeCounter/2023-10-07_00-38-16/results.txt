@@ -1,0 +1,50 @@
+Date : 2023-10-07 00:38:16
+Directory : /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app
+Total : 15 files,  3255 codes, 62 comments, 210 blanks, all 3527 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          2 |      2,435 |          0 |          2 |      2,437 |
+| JavaScript |          8 |        535 |         62 |        154 |        751 |
+| PostCSS    |          1 |        166 |          0 |         31 |        197 |
+| HTML       |          3 |         73 |          0 |          3 |         76 |
+| Markdown   |          1 |         46 |          0 |         20 |         66 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                        | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                           |         15 |      3,255 |         62 |        210 |      3,527 |
+| . (Files)                                                                   |          5 |      2,590 |         12 |         54 |      2,656 |
+| controller                                                                  |          2 |        273 |         29 |         79 |        381 |
+| handler                                                                     |          1 |         51 |          8 |         15 |         74 |
+| public                                                                      |          5 |        323 |         11 |         54 |        388 |
+| public (Files)                                                              |          4 |        239 |          0 |         34 |        273 |
+| public/scripts                                                              |          1 |         84 |         11 |         20 |        115 |
+| router                                                                      |          2 |         18 |          2 |          8 |         28 |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                    | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/README.md              | Markdown   |         46 |          0 |         20 |         66 |
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/app.js                 | JavaScript |         41 |          5 |          9 |         55 |
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/controller/auth.js     | JavaScript |        138 |         23 |         56 |        217 |
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/controller/view.js     | JavaScript |        135 |          6 |         23 |        164 |
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/handler/chat.js        | JavaScript |         51 |          8 |         15 |         74 |
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/package-lock.json      | JSON       |      2,404 |          0 |          1 |      2,405 |
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/package.json           | JSON       |         31 |          0 |          1 |         32 |
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/public/delete.html     | HTML       |         20 |          0 |          1 |         21 |
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/public/scripts/home.js | JavaScript |         84 |         11 |         20 |        115 |
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/public/sign-in.html    | HTML       |         27 |          0 |          1 |         28 |
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/public/sign-up.html    | HTML       |         26 |          0 |          1 |         27 |
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/public/styles.css      | PostCSS    |        166 |          0 |         31 |        197 |
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/router/get.js          | JavaScript |          9 |          1 |          4 |         14 |
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/router/post.js         | JavaScript |          9 |          1 |          4 |         14 |
+| /home/weaponxwolf/Desktop/proj/nodejs-login-chat-app/server.js              | JavaScript |         68 |          7 |         23 |         98 |
+| Total                                                                       |            |      3,255 |         62 |        210 |      3,527 |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
