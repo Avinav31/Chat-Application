@@ -1,4 +1,4 @@
-# Node.js Login Chat App
+#Chat Application
 
 <strong>THIS IS A WORK IN PROGRESS, FEATURES MAY BE MISSING.</strong>
 
@@ -55,8 +55,6 @@ By default, the program can be accessed on ``http://localhost:8080`` or from ano
 <img src="screenshots/sign-in.png" alt="Sign In form" style="width: 100%">
 
 <img src="screenshots/sign-up.png" alt="Sign Up form" style="width: 100%">
-
-<img src="screenshots/home.png" alt="Homepage" style="width: 100%">
 
 <img src="screenshots/edit.png" alt="Edit account page" style="width: 100%">
 
