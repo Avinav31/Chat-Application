@@ -1,23 +1,19 @@
-// Import SQLite modules
 const { Database } = require('sqlite3')
 const { open } = require('sqlite')
 
-const app = require('./app') // Import Express.js application
+const app = require('./app')
 
 const { Server } = require('socket.io')
 const http = require('http')
 
 const chatHandler = require('./handler/chat')
 
-// Function to setup database if it doesn't exist; this will run on start
 const setupDatabase = async () => {
-    // Open accounts database
     const accDb = await open({
         filename: "accounts.db",
         driver: Database
     })
 
-    // Create tables if they do not exist
     await accDb.run(`
         CREATE TABLE IF NOT EXISTS users (
             id INTEGER,
@@ -33,15 +29,13 @@ const setupDatabase = async () => {
         )
     `)
 
-    await accDb.close() // Close database
+    await accDb.close() 
 
-    // Open chat database
     const chatDb = await open({
         filename: "chat.db",
         driver: Database
     })
 
-    // Create table for storing chat history
     await chatDb.run(`
         CREATE TABLE IF NOT EXISTS chatlog (
             id INTEGER,
@@ -57,39 +51,38 @@ const setupDatabase = async () => {
 
 setupDatabase() 
 
-const server = http.createServer(app) // Create HTTP server running Express.js application
+const server = http.createServer(app)
 
-const io = new Server(server) // Setup Socket.IO server
+const io = new Server(server)
 
-const clients = {} // JSON of all connected clients
+const clients = {}
 
-io.on('connection', socket => { // On a new client connection
-    socket.on('hello', username => { // Client joins chat
-        const usernames = [] // Array of just usernames
-        Object.keys(clients).forEach(id => { // Go through each Socket.IO ID in clients JSON
+io.on('connection', socket => { 
+    socket.on('hello', username => { 
+        const usernames = [] 
+        Object.keys(clients).forEach(id => { 
             usernames.push(clients[id]) 
         })
 
-        socket.emit('receive users', usernames) // Send list of connected usernames to new client
-        chatHandler.joinChat(io, socket, username) // Inform other users of joining and get chat history
+        socket.emit('receive users', usernames) 
+        chatHandler.joinChat(io, socket, username) 
         
-        clients[socket.id] = username // Add new client to clients JSON
+        clients[socket.id] = username 
     })
 
-    socket.on('disconnect', () => { // Client disconnects
-        const username = clients[socket.id] // Get username
+    socket.on('disconnect', () => { 
+        const username = clients[socket.id] 
 
-        chatHandler.leaveChat(io, socket, username) // Inform other clients of leaving
+        chatHandler.leaveChat(io, socket, username) 
 
-        delete clients[socket.id] // Delete from clients JSON
+        delete clients[socket.id] 
     })
 
-    socket.on('send message', message => { // Client sends chat message
-        chatHandler.sendMessage(io, message) // Send message to all clients
+    socket.on('send message', message => { 
+        chatHandler.sendMessage(io, message) 
     })
 })
 
-// Run HTTP server on port given by environment variable, or if none set, default to 8080
 const PORT = process.env.PORT || 8000
 
 server.listen(PORT, () => {
